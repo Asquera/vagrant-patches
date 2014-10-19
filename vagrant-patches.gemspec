@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Vagrant::Patches::VERSION
   spec.authors       = ["Felix Gilcher"]
   spec.email         = ["felix.gilcher@asquera.de"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A collection of various patches that have not yet been accepted to vagrant}
+  spec.description   = %q{A collection of patches for vagrant that have not yet been accepted. Includes fixes for box downloading and CentOS 7}
   spec.homepage      = ""
   spec.license       = "MIT"
 

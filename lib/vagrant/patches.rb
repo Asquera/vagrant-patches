@@ -1,7 +1,3 @@
 require "vagrant/patches/version"
-
-module Vagrant
-  module Patches
-    # Your code goes here...
-  end
-end
+require "vagrant/patches/issue-4465"
+require "vagrant/patches/issue-4494.rb" 
