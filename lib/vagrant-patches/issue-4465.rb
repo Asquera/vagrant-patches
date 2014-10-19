@@ -1,4 +1,4 @@
-require "plugins/guests/redhat/cap/change_host_name"
+require Vagrant.source_root.join("plugins/guests/redhat/cap/change_host_name")
 
 # monkeypatch the change_hostname capability of the redhat plugin to
 # fix https://github.com/mitchellh/vagrant/issues/4465
