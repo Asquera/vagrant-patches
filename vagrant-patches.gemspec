@@ -5,7 +5,7 @@ require 'vagrant-patches/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-patches"
-  spec.version       = Vagrant::Patches::VERSION
+  spec.version       = VagrantPatches::VERSION
   spec.authors       = ["Felix Gilcher"]
   spec.email         = ["felix.gilcher@asquera.de"]
   spec.summary       = %q{A collection of various patches that have not yet been accepted to vagrant}
